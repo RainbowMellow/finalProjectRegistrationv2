@@ -10,6 +10,8 @@ namespace Services
     {
         private IStudentRepository repo;
 
+        private int hello = 3;
+
         public StudentService(IStudentRepository repo)
         {
             this.repo = repo ?? throw new ArgumentException("StudentRepository is missing");
