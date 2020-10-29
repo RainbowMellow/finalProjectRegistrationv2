@@ -1,11 +1,9 @@
 ﻿using Model;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Interfaces
 {
-    interface IStudentRepository
+    public interface IStudentRepository
     {
         IEnumerable<Student> GetAll();
         Student GetById(int id);
